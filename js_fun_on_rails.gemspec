@@ -7,11 +7,9 @@ Gem::Specification.new do |s|
   s.version     = JsFunOnRails::VERSION
   s.authors     = ["Rik Vanmechelen"]
   s.email       = ["rik.vanmechelen@gmail.com"]
-  s.homepage    = ""
-  s.summary     = "A simple gem to add and remove fields"
-  s.description = "A simple gem to add and remove fields as seen in railscast episode 197"
-
-  s.rubyforge_project = "js_fun_on_rails"
+  s.homepage    = "http://github.com/rikvanmechelen/js-fun-on-rails"
+  s.summary     = "A simple gem with my common js functions and helpers"
+  s.description = "A simple gem with my common js functions and helpers, including add and remove field from railscasts #197"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -1,0 +1,39 @@
+      _  _____    __                                       _ _     
+     | |/ ____|  / _|                                     (_) |    
+     | | (___   | |_ _   _ _ __     ___  _ __    _ __ __ _ _| |___ 
+ _   | |\___ \  |  _| | | | '_ \   / _ \| '_ \  | '__/ _` | | / __|
+| |__| |____) | | | | |_| | | | | | (_) | | | | | | | (_| | | \__ \
+ \____/|_____/  |_|  \__,_|_| |_|  \___/|_| |_| |_|  \__,_|_|_|___/
+                                                                   
+	A simple gem with my common js functions and helpers, 
+	including add and remove field from railscasts #197
+	
+Features
+--------
+	- Provides an install generator to include the javascript
+	- Provides you with some helpers i commonly use with the javascripts
+	
+	
+Usage
+-----
+
+	$> gem 'js_fun_on_rails' (NOT YET)
+	$> bundle install
+	$> rails generate js_fun_on_rails:install
+	
+	
+Help
+----
+This is just some code i used in nearly every project, you are more then welcome to give suggestions, or add some code yourself!
+
+
+Js functions
+------------
+	- remove_fields(link, class, speed) 
+	- add_fields(link, association, content, speed)
+	- add_field(link, content) 
+	- show_fields(ids, speed) 
+	- hide_fields_by_ids(ids, speed)
+	- remove_fields_by_ids(ids, speed)
+	- remove_content_by_id(id, speed)
+	- show_content_by_id(id, speed) 
