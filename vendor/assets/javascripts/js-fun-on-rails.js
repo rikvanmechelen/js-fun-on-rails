@@ -1,5 +1,4 @@
 function remove_fields(link, clas, speed) {
-	$(link).previous("input[type=hidden]").value = "1";
 	var field = $(link).closest("." + clas);
 	field.hide(speed, function () {
 		field.remove()
