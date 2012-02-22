@@ -1,3 +1,6 @@
+var fast = 600;
+var slow = 200;
+
 function remove_fields(link, clas, speed) {
 	var field = $(link).closest("." + clas);
 	field.hide(speed, function () {
@@ -17,7 +20,7 @@ function add_field(link, content) {
 	c.hide();
 }
 
-function show_fields(ids, speed) {
+function show_fields_by_ids(ids, speed) {
 	for ( var i=0, len=ids.length; i<len; ++i ){
 		$('#'+ids[i]).show(speed);
 	}
