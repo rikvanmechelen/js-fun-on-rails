@@ -17,7 +17,6 @@ function add_fields(link, association, content, speed) {
 function add_field(link, content) {
 	var c = $(content);
 	$(link).parent().before(c);
-	c.hide();
 }
 
 function show_fields_by_ids(ids, speed) {
