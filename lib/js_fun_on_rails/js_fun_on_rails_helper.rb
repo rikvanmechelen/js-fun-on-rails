@@ -37,5 +37,9 @@ module JsFunOnRails
       hide_js = "hide_fields(#{hide_ids}, #{speed})"
       link_to_function(name,show_js+hide_js)
     end
+    
+    def railscasts_link_to_remove_fields(name, f)
+        f.hidden_field(:_destroy) + link_to_function(name, "railscasts_remove_fields(this)")
+      end
   end
 end
